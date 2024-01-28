@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="object-src 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-OObdZyIsman4OS4YdUdRu8d++cnJ+A/hXOPJDYOLuPk='; base-uri 'self'">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.PPDAowrl.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.n5gUstXz.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.bTGyuiJn.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.bCL4glnn.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.HkSPsagZ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.0HuHagjb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index._NyPdpr1.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_jquswm = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.PPDAowrl.js"),
+						import("./_app/immutable/entry/app.HkSPsagZ.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
