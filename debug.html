@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="object-src 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-sHwgouKVZtnHghTv7+kj+IwvIRJEPAuCGwBm2Wa1its='; base-uri 'self'">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.pSZQSb9C.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.7WTdUC9T.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.3290unkr.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.Hduz1s-6.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.rZWIwOqj.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.0HuHagjb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.ogpWc0fe.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_12l5vpz = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.pSZQSb9C.js"),
+						import("./_app/immutable/entry/app.rZWIwOqj.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
